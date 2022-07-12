@@ -7,12 +7,16 @@
 }
 
 /* Write CSS code below */
+body{
+    background-color: aqua;
+}
 .main-content{
     display: grid;
     grid-template-columns: 300px 700px;
     min-height: 1000px;
     width: 90%;
     margin:  20px auto;
+
 }
 .left-section{
     grid-column: span 1;
@@ -42,9 +46,15 @@ text-transform: uppercase;
 letter-spacing: 0.02px;
 }
 .designation{
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+.description{
     font-size: 0.75rem;
     text-align: center;
-    padding:  1rem 1rem;
+    padding: 1rem 1rem;
 }
 .social-media{
     display: flex;
@@ -117,6 +127,9 @@ letter-spacing: 0.02px;
 }
 .box>.text{
 padding: 0.5rem;
+}
+.box>.text{
+    padding: 0.5rem;
 }
 h6{
     margin-top: 10px;
